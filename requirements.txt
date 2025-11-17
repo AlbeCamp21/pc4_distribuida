@@ -1,0 +1,16 @@
+# Dependencias de Python para el Sistema de IA
+
+# Framework de Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# YOLOv8 para deteccion de objetos
+ultralytics>=8.0.0
+
+# Procesamiento de imagenes
+Pillow>=9.0.0
+opencv-python>=4.7.0
+
+# Utilidades
+numpy>=1.24.0
+matplotlib>=3.7.0

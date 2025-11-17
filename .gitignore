@@ -1,0 +1,49 @@
+# Archivos compilados Java
+*.class
+bin/
+build/
+out/
+
+# Archivos Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+
+# Archivos generados por el sistema
+dataset/
+evidencias/
+modelos/
+registros/
+temp/
+runs/
+
+# Archivos de YOLO
+*.pt
+*.weights
+*.yaml
+
+# Android
+*.iml
+.gradle
+local.properties
+.idea/
+.DS_Store
+*.apk
+*.ap_
+*.dex
+captures/
+.externalNativeBuild
+.cxx
+
+# Logs
+*.log
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
