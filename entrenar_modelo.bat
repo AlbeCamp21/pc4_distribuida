@@ -1,7 +1,5 @@
 @echo off
-echo ==========================================
 echo   ENTRENAMIENTO DEL MODELO DE IA
-echo ==========================================
 echo.
 
 echo Verificando instalacion de Python...
@@ -22,19 +20,15 @@ if %ERRORLEVEL% NEQ 0 (
 
 echo.
 echo Iniciando entrenamiento del modelo...
-echo Esto puede tomar varios minutos...
+echo Esto puede demorar...
 echo.
 
 python scripts_ia\entrenamiento.py
 
 if %ERRORLEVEL% EQU 0 (
     echo.
-    echo ==========================================
     echo   ENTRENAMIENTO COMPLETADO
-    echo ==========================================
 ) else (
     echo.
     echo Error durante el entrenamiento
 )
-
-pause

@@ -1,7 +1,5 @@
 @echo off
-echo ==========================================
 echo   INICIANDO CLIENTE VIGILANTE
-echo ==========================================
 echo.
 
 if not exist "cliente_vigilante\bin" mkdir cliente_vigilante\bin
@@ -13,7 +11,6 @@ javac -d ..\..\..\bin com\vigilante\*.java com\vigilante\modelos\*.java
 if %ERRORLEVEL% NEQ 0 (
     echo Error en compilacion
     cd ..\..\..\..
-    pause
     exit /b 1
 )
 
@@ -23,5 +20,3 @@ echo Iniciando interfaz grafica...
 cd ..\..\..\..
 
 java -cp cliente_vigilante\bin com.vigilante.ClienteVigilante
-
-pause

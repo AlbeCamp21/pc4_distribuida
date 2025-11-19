@@ -14,34 +14,17 @@ env/
 venv/
 *.egg-info/
 
-# Archivos generados por el sistema
-dataset/
-evidencias/
-modelos/
-registros/
-temp/
+# Archivos de YOLO (excluir modelos entrenados para compartir)
 runs/
-
-# Archivos de YOLO
-*.pt
+yolov8*.pt
+!modelos/modelo_entrenado.pt
 *.weights
-*.yaml
+dataset.yaml
 
-# Android
-*.iml
-.gradle
-local.properties
-.idea/
-.DS_Store
-*.apk
-*.ap_
-*.dex
-captures/
-.externalNativeBuild
-.cxx
 
-# Logs
-*.log
+# Archivos generados por el sistema
+evidencias/
+registros/
 
 # Sistema operativo
 .DS_Store
